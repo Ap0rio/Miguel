@@ -1,0 +1,127 @@
+html {
+  height: 100%;
+  width: 100%;
+  background-color: #e6e6e6;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1{
+  text-align: center;
+  color: #1e8eb3;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.principal p {
+  font-family: 'Courier New', Courier, monospace;
+  color: #111212;
+  text-align: justify;
+  font-size: 1.5rem;
+}
+
+.gostos-div{
+  margin: 10px;
+}
+
+.gostos{
+  padding: 10px 15px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 600px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+.gostos li{
+  margin: 5px;
+  padding: 3px;
+}
+
+.gostos img{
+  max-width: 300px;
+  max-height: 200px;
+  border-radius: 10px;
+  display: flex;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.paises-div{
+  margin: 10px;
+}
+
+.paises{
+  max-width: 600px;
+  padding: 10px 15px;
+  border-radius: 10px;
+  background-color: #1e8eb3;
+
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.paises-tabela{
+  display:flex;
+  justify-content: center;
+}
+
+.paises caption{
+  margin: 10px;
+}
+
+.paises img{
+  width: 150px;
+  height: 100px;
+
+  border-radius: 25px;
+}
+
+.paises td{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1.5rem;
+  padding: 4px;
+  border: 2px solid #1c66b5;
+}
+
+.links{
+  display:flex;
+  justify-content: center;
+}
+
+a{
+  margin: 2rem;
+
+  background-color: #207e7e;
+  border-radius: 10px;
+  padding: 0.4rem 1rem;
+  transition: 0.3s ease-in-out;
+}
+
+a:hover{
+  color: #00d5ff;
+}
+
+.botao{
+  background-color: #1e8eb3;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.botao:hover{
+  background-color: #176b87;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+
+  color: white;
+}
+
+.botao:focus{
+  background-color: #124f64;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5)
+}
